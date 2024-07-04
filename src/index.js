@@ -19,7 +19,7 @@ function generateRecipe(event) {
         The recipe should be written in basic HTML and formatted with each line separated by a <br/> tag. 
         Start the recipe by listing the ingredients needed for the dish. 
         Follow this with the heading 'Process', and then list each step of the process, 
-        with each step on a new line. The process should not exceed 10 lines and should be very easy to follow. 
+        each new line or full stop is seperated with a </br>. The process should not exceed 10 lines and should be very easy to follow. 
         Do not include a title for the recipe. 
         End the recipe with the signature 'Nnita's AI recipes' inside a <strong> element.
     `;
