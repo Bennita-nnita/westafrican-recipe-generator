@@ -78,6 +78,10 @@ form {
     display: none;
 }
 
+.recipe strong {
+    color: #885df1;
+  }
+
 footer {
     text-align: center;
     font-size: 13px;
