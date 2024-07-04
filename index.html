@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
@@ -15,19 +13,20 @@
         </header>
         <main>
             <div class="form-container">
-                <form id = "recipe-generator-form">
+                <form id="recipe-generator-form">
                     <input 
                         type="text"
-                        placeholder="Enter an ingredient"
-                        required
+                        placeholder="Enter your protein of choice"
                         autocomplete="off"
                         autofocus
+                        required
                         class="instructions"
                         id="user-instructions"/>
                     <input type="submit" class="submit-button"/>
                 </form>
-            </div>
-                <div class="recipe-hidden" id="recipe">
+                <div class="recipe-hidden hidden" id="recipe">
+                    ingredients would go here <br/>
+                    recipes would go here
                 </div>
             </div>
         </main>
@@ -35,6 +34,7 @@
             This project is coded by <a href="https://github.com/Bennita-nnita" target="_blank"> Bennita Ampiah</a>, open-sourced on <a href="https://github.com/Bennita-nnita/westafrican-recipe-generator" target="_blank">Github</a> and hosted on <a href="https://mywestafricanrecipegenerator.netlify.app/" target="_blank">Netlify</a>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="src/index.js"></script>
 </body>
 </html>
